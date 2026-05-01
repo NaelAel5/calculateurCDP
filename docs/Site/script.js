@@ -26,7 +26,7 @@ function setMode(mode) {
   // Libellés dynamiques
   document.getElementById('label-section-doc').textContent = estDevis ? 'Devis' : 'Facture';
   document.getElementById('btn-generer').textContent = estDevis ? 'CRÉATION DEVIS' : 'CRÉATION FACTURE';
-  document.getElementById('devisNumero').placeholder = estDevis ? 'Ex : 2026_001' : 'Ex : F-2026_001';
+  document.getElementById('devisNumero').placeholder = estDevis ? 'Ex : 2026_001' : 'Ex : F_2026_001';
 }
 
 
