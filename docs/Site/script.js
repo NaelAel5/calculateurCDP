@@ -45,7 +45,7 @@ function ajouterDivers() {
   div.innerHTML = `
     <input type="text"   id="${id}_label" placeholder="Libellé">
     <input type="number" id="${id}_qte"   min="0" value="1" placeholder="Qté">
-    <input type="number" id="${id}_prix"  min="0" value="0" step="0.01" placeholder="Prix u.">
+    <input type="number" id="${id}_prix"  min="0" value="" step="0.01" placeholder="Prix">
     <button type="button" onclick="supprimerDivers('bloc_${id}')">✕</button>
   `;
   document.getElementById('zone-divers').appendChild(div);
